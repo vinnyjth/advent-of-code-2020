@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DD=${1:-$(date +%-d)}
+ruby ./day$DD.rb
