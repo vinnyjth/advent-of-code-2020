@@ -1,0 +1,14 @@
+
+require './utils'
+
+def solve1
+  lines = Utils.input_read(${day})
+end
+
+solve1
+
+def solve2
+  lines = Utils.input_read(${day})
+end
+
+solve2

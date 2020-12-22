@@ -6,4 +6,8 @@ module Utils
   def self.input_to_lines(input)
     input.split("\n")
   end
+
+  def self.print_map(input)
+    puts input.map { |r| r.join(' ') }.join("\n")
+  end
 end

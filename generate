@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DD=${1:-$(date +%-d)}
+ruby ./gen_template.rb $DD
