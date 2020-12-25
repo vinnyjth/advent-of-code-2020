@@ -1,3 +1,4 @@
+# Introducing "Cup", the worlds worst possible interpretation of a linked list
 class Cup
   attr_accessor :value, :prev, :next
   def initialize(value, prev, next_val)
